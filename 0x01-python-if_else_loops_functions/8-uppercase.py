@@ -4,4 +4,5 @@ def uppercase(str):
         temporary = itt
         if ord(temporary) >= 97 and ord(temporary) <= 122:
             temporary = chr(ord(temporary) - 32)
-        print()
+        print("{}".format(temporary), end='')
+    print()
